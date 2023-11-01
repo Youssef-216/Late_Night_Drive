@@ -1,0 +1,60 @@
+body {
+    height: 250vh;
+    background: linear-gradient(to bottom, #2f5063 0%,#4F4F47 40%,#C5752D 70%,#e8783c 90%, #000000 100%); 
+}
+
+h {
+    color: #e8783c;
+    font-style: italic;
+    font-size: 70px;
+}
+
+.carPhoto {
+    position: fixed;
+    bottom: 0;
+    width: 20vw;
+}
+.header{
+    position: fixed;
+   margin-left: 30px;
+}
+#btn, button {
+    color: #e8783c;
+    background-color: #8b6edc;
+    font-style: italic;
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.moon, .sun {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s;
+}
+
+.sun {
+  top: 23%;
+  left: 90%;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+}
+
+.moon {
+  top: 30%;
+  left: 90%;
+  width: 200px;
+  height: 200px;
+  
+
+}
